@@ -28,7 +28,7 @@ pip install tiktoken
 
 Make sure Python and Tiktoken are installed in the same virtual environment to avoid any issue of not being able to detect imports.
 
-### Choose Your Script:
+## Choose Your Script:
 
 There are two scripts you can choose from.
 | Script Name        | Tokenization              | Meaningfulness Judgment                                  | Summary                                                                                                |
