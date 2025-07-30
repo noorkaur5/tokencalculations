@@ -25,3 +25,14 @@ https://github.com/noorkaur5/tokencalculations
 ```bash
 pip install tiktoken
 ```
+
+Make sure Python and Tiktoken are installed in the same virtual environment to avoid any issue of not being able to detect imports.
+
+### Copy and paste any code from an AI model into the script:
+
+```bash
+"“Optimize this function for performance in Python:”
+
+def sum_list(lst): total = 0 for i in range(len(lst)): total += lst[i] return total"
+"""
+```
