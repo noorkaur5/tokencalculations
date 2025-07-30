@@ -40,6 +40,12 @@ There are two scripts you can choose from.
 
 ### Example: manual_etr.py
 ```bash
+# Example messages
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": "Write a Python function that returns the square of a number."}
+]
+
 # Example: simulate a model's completion
 completion_text = "Here is the Python function:\n```python\ndef square(n): return n * n\n```"
 ```
